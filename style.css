@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, rgba(49,21,94,0.9836309523809523) 0%, rgba(193,99,87,1) 100%);
+    block-size: cover;
+    font-family: Arial;
+    color: white;
+    margin: 0;
+}
+img{
+    width: 300px;
+    height: 400px;
+}
+.imagebox{
+    background-image: url(pexels-davidohboy-15578747.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 4OOpx;
+    height: 400px;
+    background: black;
+}
+.open{
+    background-color: black;
+    height: 40px;
+   
+}
+
+:focus{
+    outline: none;
+}
+.content{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentbox{
+    padding: 20px;
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+}
+.contentbox form{
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
+    /* padding-bottom: 20px; */
+    background-color: rgb(31, 31, 65);
+}
+.contentbox h2{
+    
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 28px;
+    color: rgba(221, 84, 107, 0.514);
+}
+.form-goup{
+    position: relative;
+}
+table{
+    padding-bottom: 30px;
+}
+input, textarea{
+    background: none;
+    border: 1px solid black;
+    border: none;
+    border-bottom: 1px solid white;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-right: 0;
+    /* padding-bottom: 45px; */
+    color: white;
+}
+textarea{
+    height: 50px;  
+}
+select{
+    cursor: pointer;
+    background: none;
+    color: white;
+    border: none;
+}
+button{
+    background:  linear-gradient(0deg, rgba(49,21,94,0.9836309523809523) 35%, rgba(193,99,87,1) 100%);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+.banner-text{
+    opacity: 5;
+    background-color: rgba(116, 0, 71, 0.514);
+    position: absolute;
+    top: 442px;
+    width: 300px;
+    text-align: center;
+    line-height: 5px;
+}
+
+
